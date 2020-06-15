@@ -1,4 +1,4 @@
-import Component from '@glimer/component';
+import Component from '@glimmer/component';
 import { action } from '@ember/object';
 
 
