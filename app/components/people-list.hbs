@@ -1,7 +1,8 @@
-<2>{{@title}}</2>
-
+<h2>{{@title}}</h2>
 <u1>
-    {{#each @people as [person|]}}
-    <li>{{person}}</li>
-    <</each>>
+    {{#each @people as |person|}}
+    <li>
+        <button type="button" {{on 'click' this.showPerson}}>{{person}}</button>
+    </li>
+    {{/each}}
 </u1>
